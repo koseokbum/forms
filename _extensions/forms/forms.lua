@@ -35,7 +35,7 @@ local function addHTMLDeps()
   
       -- These are the form items
       -- action (form.action) describes the handler function for the form submit
-      local form_start = "<div id = \"" .. formid .. "-div\" class = \"form-wrapper\">\n <form data-netlify=\""true\"" id = \"" .. formid .. "\" action = \"" .. action .. "\">\n"
+      local form_start = "<div id = \"" .. formid .. "-div\" class = \"form-wrapper\">\n <form data-netlify=\"true\" id = \"" .. formid .. "\" action = \"" .. action .. "\">\n"
       local form_end = "</form></div>\n"
   
       -- Fields for the Form --
